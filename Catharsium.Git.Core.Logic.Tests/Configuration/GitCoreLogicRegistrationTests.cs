@@ -1,10 +1,10 @@
-﻿using Catharsium.Git.Core.Logic.Configuration;
+﻿using Catharsium.GitTools.Core.Logic.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
 
-namespace Catharsium.Git.Core.Logic.Tests.Configuration
+namespace Catharsium.GitTools.Core.Logic.Tests.Configuration
 {
     [TestClass]
     public class GitCoreLogicRegistrationTests

@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Catharsium.Git.Core.Logic.Configuration
+namespace Catharsium.GitTools.Core.Logic.Configuration
 {
     public static class GitCoreLogicRegistration
     {

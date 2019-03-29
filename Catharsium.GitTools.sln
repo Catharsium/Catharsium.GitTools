@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.Git.Core.Entities", "Catharsium.Git.Core.Entities\Catharsium.Git.Core.Entities.csproj", "{8070675D-5E7D-4BB1-898D-772332402845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.GitTools.Core.Entities", "Catharsium.Git.Core.Entities\Catharsium.GitTools.Core.Entities.csproj", "{8070675D-5E7D-4BB1-898D-772332402845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.Git.Core.Entities.Tests", "Catharsium.Git.Core.Entities.Tests\Catharsium.Git.Core.Entities.Tests.csproj", "{D58CAB29-0CC2-45C4-A9E1-073C9E8D3E23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.GitTools.Core.Entities.Tests", "Catharsium.Git.Core.Entities.Tests\Catharsium.GitTools.Core.Entities.Tests.csproj", "{D58CAB29-0CC2-45C4-A9E1-073C9E8D3E23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{6CBCAE2A-1ACA-478A-AD2C-4E4920B3E9E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.Git.Core.Logic", "Catharsium.Git.Core.Logic\Catharsium.Git.Core.Logic.csproj", "{A7662AB5-BDFB-40A4-919B-0A8CCD84A01B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.GitTools.Core.Logic", "Catharsium.Git.Core.Logic\Catharsium.GitTools.Core.Logic.csproj", "{A7662AB5-BDFB-40A4-919B-0A8CCD84A01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.Git.Core.Logic.Tests", "Catharsium.Git.Core.Logic.Tests\Catharsium.Git.Core.Logic.Tests.csproj", "{C978DCDA-FEFD-4293-91E5-642E5D01DC44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catharsium.GitTools.Core.Logic.Tests", "Catharsium.Git.Core.Logic.Tests\Catharsium.GitTools.Core.Logic.Tests.csproj", "{C978DCDA-FEFD-4293-91E5-642E5D01DC44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

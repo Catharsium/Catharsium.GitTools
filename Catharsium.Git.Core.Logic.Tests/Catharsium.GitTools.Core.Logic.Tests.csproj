@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Catharsium.Git.Core.Logic\Catharsium.Git.Core.Logic.csproj" />
+    <ProjectReference Include="..\Catharsium.Git.Core.Logic\Catharsium.GitTools.Core.Logic.csproj" />
   </ItemGroup>
 
 </Project>
