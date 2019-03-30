@@ -8,4 +8,8 @@
     <PackageReference Include="Catharsium.Util" Version="1.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Catharsium.GitTools.Core.Entities\Catharsium.GitTools.Core.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

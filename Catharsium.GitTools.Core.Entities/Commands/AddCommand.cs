@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Catharsium.GitTools.Core.Entities.Interfaces;
 
 namespace Catharsium.GitTools.Core.Entities.Commands
@@ -14,9 +15,16 @@ namespace Catharsium.GitTools.Core.Entities.Commands
         }
 
 
-        public void Execute()
+        public List<string> GetCommands()
         {
-            throw new NotImplementedException();
+            var result = new List<string>();
+
+            foreach (var file in this.Options.Files)
+            {
+                result.Add("git add " + file);
+            }
+
+            return result;
         }
     }
 }
