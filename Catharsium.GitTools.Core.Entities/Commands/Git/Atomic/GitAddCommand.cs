@@ -6,12 +6,8 @@ namespace Catharsium.GitTools.Core.Entities.Commands.Git.Atomic
 {
     public class GitAddCommand : BaseCommand<GitAddCommandOptions>, ICommand<GitAddCommandOptions>
     {
-        private readonly GitAddCommandOptions options;
-
-
         public GitAddCommand(GitAddCommandOptions options) : base(options)
         {
-            this.options = options;
         }
 
 

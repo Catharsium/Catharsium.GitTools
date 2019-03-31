@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Commands\Git\Complex\" />
-    <Folder Include="Commands\System\" />
   </ItemGroup>
 
 </Project>

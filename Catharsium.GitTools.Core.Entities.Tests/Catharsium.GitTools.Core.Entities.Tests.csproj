@@ -21,7 +21,6 @@
     <Folder Include="Commands\Base\" />
     <Folder Include="Commands\Git\Complex\" />
     <Folder Include="Commands\Git\Gitflow\" />
-    <Folder Include="Commands\System\" />
   </ItemGroup>
 
 </Project>
