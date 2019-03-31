@@ -7,9 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Catharsium.Util.Testing" Version="1.1.4" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Catharsium.GitTools.Core.Entities\Catharsium.GitTools.Core.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Base\" />
+    <Folder Include="Commands\Git\Complex\" />
+    <Folder Include="Commands\Git\Gitflow\" />
+    <Folder Include="Commands\System\" />
   </ItemGroup>
 
 </Project>
