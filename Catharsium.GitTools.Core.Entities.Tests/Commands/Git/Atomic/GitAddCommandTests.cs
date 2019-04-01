@@ -49,7 +49,7 @@ namespace Catharsium.GitTools.Core.Entities.Tests.Commands.Git.Atomic
             Assert.AreEqual(options.Files.Count(), actual.Count);
             foreach (var file in options.Files)
             {
-                actual.Contains($" \"{file}\"");
+                Assert.IsTrue(actual.Contains($"git add \"{file}\""));
             }
         }
 
