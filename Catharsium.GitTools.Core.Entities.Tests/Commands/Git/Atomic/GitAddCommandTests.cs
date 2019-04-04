@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Catharsium.GitTools.Core.Entities.Commands.Git.Atomic;
 using Catharsium.Util.Testing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -17,7 +16,7 @@ namespace Catharsium.GitTools.Core.Entities.Tests.Commands.Git.Atomic
 
             var actual = this.Target.GetCommands();
             Assert.AreEqual(1, actual.Count);
-            Assert.AreEqual($"git add *", actual[0]);
+            Assert.AreEqual("git add *", actual[0]);
         }
 
 
@@ -26,7 +25,7 @@ namespace Catharsium.GitTools.Core.Entities.Tests.Commands.Git.Atomic
         {
             var options = new GitAddCommandOptions
             {
-                Files = new List<string> { "My file" },
+                Files = new List<string> { "My file" }
             };
             this.SetDependency(options);
 
@@ -46,7 +45,7 @@ namespace Catharsium.GitTools.Core.Entities.Tests.Commands.Git.Atomic
             this.SetDependency(options);
 
             var actual = this.Target.GetCommands();
-            Assert.AreEqual(options.Files.Count(), actual.Count);
+            Assert.AreEqual(options.Files.Count, actual.Count);
             foreach (var file in options.Files)
             {
                 Assert.IsTrue(actual.Contains($"git add \"{file}\""));
