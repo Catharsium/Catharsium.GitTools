@@ -29,5 +29,17 @@ namespace Catharsium.GitTools.Core.Entities.Tests.Commands.Git.Atomic
             Assert.AreEqual(1, actual.Count);
             Assert.AreEqual("git push --all", actual[0]);
         }
+
+
+        [TestMethod]
+        public void GetCommands_RemoteName_IncludesRemoteArgument()
+        {
+            var options = new GitPushCommandOptions { Remote = "MyRemoteName" };
+            this.SetDependency(options);
+
+            var actual = this.Target.GetCommands();
+            Assert.AreEqual(1, actual.Count);
+            Assert.AreEqual($"git push {options.Remote}", actual[0]);
+        }
     }
 }
